@@ -25,19 +25,22 @@ html {
 }
 
 .main {
-    background-color: hsl(217, 28%, 15%);
+    background: hsl(217, 28%, 15%) url('.images/bg-curvy-desktop.svg') no-repeat center;
     padding: 50px;
 }
 
 .acesso img {
     margin-bottom: 40px;
-    
+    padding-left: 280px;
+    max-width: 850px;
 }
 
 .acesso h2 {
     font-size: 3em;
     margin-bottom: 20px;
     text-align: center;
+    max-width: 600px;
+    margin-left: 250px;
 }
 
 .acesso h4 {
@@ -45,6 +48,12 @@ html {
     font-weight: 400;
     margin-bottom: 20px;
     text-align: center;
+    max-width: 480px;
+    margin-left: 310px;
+}
+
+.acesso p {
+    margin-left: 400px;
 }
 
 .btn {
@@ -54,7 +63,7 @@ html {
     padding: 15px 100px;
     border-radius: 40px;
     margin: 40px 200px;
-    margin-bottom: 150px;  
+    margin-bottom: 150px;
 }
 
 .servicos {
@@ -66,21 +75,32 @@ html {
 
 .icones-servicos {
     max-width: 200px;
-    margin-left: 250px;
+    margin-left: 220px;
 }
 
 .icones-servicos h2 {
     padding-top: 20px;
+    font-size: 3em;
 }
 
 .icones-servicos h4 {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 1.5em;
 }
 
 .produtividade {
     display: flex;
     
+
+}
+
+.produtividade img {
+    margin-right: 0px;
+}
+
+.produtividade h2 {
+    font-size: 30px;
     
 }
 
