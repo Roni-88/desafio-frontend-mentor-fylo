@@ -132,10 +132,33 @@ html {
 
 .inscricao {
     background-color: hsl(216, 53%, 9%);
+    border-radius: 15px;
+    max-width: 800px;
+    margin-left: 185px;
+    padding: 35px 150px;
+}
+
+.inscricao h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.inscricao h4 {
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 35px;
+}
+
+.inscricao input {
+    border-radius: 50px;
+    padding: 16px 50px;
+    margin-bottom: 10px;
 }
 
 .inscricao .erro {
     color: hsl(0, 100%, 63%);
+
 }
 
 .btn-pequeno {
