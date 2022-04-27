@@ -68,6 +68,11 @@ html {
     margin-bottom: 150px;
 }
 
+.acesso {
+    background-image: url('./bg-curvy-desktop.svg');
+    background-color: aqua;
+}
+
 .servicos {
     display: grid;
     grid: "acesso seguranca"
