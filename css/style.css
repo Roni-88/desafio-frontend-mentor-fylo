@@ -19,6 +19,7 @@ html {
     list-style-type: none;
     gap: 50px;
     font-size: 2em;
+    margin-right: 30px;
 }
 
 .menu li:hover {
