@@ -188,3 +188,8 @@ html {
 .footer .fa-location-dot {
     color: hsl(0, 0%, 100%);
 }
+
+.footer-detalhes {
+    display: flex;
+    gap: 30px;
+}
