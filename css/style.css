@@ -112,29 +112,44 @@ html {
 }
 
 .teste:hover {
-    text-decoration: underline;
-   
+    text-decoration: underline;  
 }
 
 .membros {
     display: flex;   
     gap: 35px;
-    margin: 180px 60px;  
-    
-}
-
-.membros .foto {
-    border-radius: 950px;
-    margin: 40px 40px 10px 40px;
+    margin: 180px 60px;
 }
 
 .membros .informacoes-membros {
-    background-color: hsl(219, 30%, 18%);    
+    background-color: hsl(219, 30%, 18%);
+    padding: 40px 24px 20px 30px;
+    border: 10px solid hsl(217, 28%, 15%);
+}
+
+.membros .informacoes-membros p {
+    font-size: 15px;
+}
+
+.membros .foto {
+    border-radius: 50%;
+    margin: 30px 15px 15px 0;
+    max-width: 50px;
 }
 
 .membros .informacoes-detalhes {
     display: flex;
     align-items: center;   
+}
+
+.membros .pequenos-detalhes {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.membros .pequenos-detalhes h5 {
+     padding-top: 8px;
+     font-weight: 400;
 }
 
 .inscricao {
