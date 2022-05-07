@@ -140,7 +140,7 @@ body {
 
 .membros {
     background-color: hsl(218, 28%, 13%);
-    padding: 0 0 100px 0;
+    padding: 0 0 300px 0;
 }
 
 .membros .container {
@@ -182,34 +182,35 @@ body {
      font-weight: 400;
 }
 
-.inscricao {
+.inscricao .container {
     background-color: hsl(217, 28%, 15%);
     border-radius: 10px;
-    max-width: 700px;
-    
-    padding: 35px 150px;
+    max-width: 755px;
+    position: relative;
+    padding: 35px 60px 30px 60px;
+    top: -300px;
+    box-shadow: 5px 5px 10px rgb(20, 20, 20);
 }
 
 .inscricao h2 {
     text-align: center;
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;   
 }
 
 .inscricao h4 {
     text-align: center;
     font-weight: lighter;
     margin-bottom: 35px;
+    font-size: 14px;
 }
 
 .inscricao input {
     border-radius: 50px;
-    padding: 12px 50px;
+    padding: 12px 140px;
     margin-bottom: 10px;
-}
-
-.inscricao .erro {
-    color: hsl(0, 100%, 63%);
+    
+    
 }
 
 .btn-pequeno {
@@ -223,6 +224,11 @@ body {
 .btn-pequeno:hover {
     background: linear-gradient(to right, #12E0D0, rgb(50, 80, 880));
 }
+
+.inscricao .erro {
+    color: hsl(0, 100%, 63%);
+}
+
 
 .footer {
     background-color: hsl(216, 53%, 9%);
