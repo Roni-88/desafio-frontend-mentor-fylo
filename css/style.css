@@ -115,27 +115,33 @@ body {
     max-width: 350px;
 }
 
-.produtividade {
-    background-color: hsl(218, 28%, 13%);
-}
-
 .produtividade .container {
-    display: flex;
+    display: flex;    
     background-color: hsl(218, 28%, 13%);
     padding-bottom: 200px;
 }
 
 .produtividade .container img {
-    margin: 0 60px 0 100px;
+    margin-left: 100px;
 }
 
 .produtividade .container h2 {
     font-size: 50px;
-    
+    margin-left: 80px;
+}
+
+.produtividade .container p {
+    font-size: 2px;
+
+}
+
+.teste {
+    color: #12E0D0;
 }
 
 .teste:hover {
-    text-decoration: underline;  
+    text-decoration: underline;
+    color: #ffffff;
 }
 
 .membros {
@@ -185,7 +191,7 @@ body {
 .inscricao .container {
     background-color: hsl(217, 28%, 15%);
     border-radius: 10px;
-    max-width: 755px;
+    max-width: 800px;
     position: relative;
     padding: 35px 60px 30px 60px;
     top: -300px;
@@ -194,7 +200,7 @@ body {
 
 .inscricao h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 3.5em;
     margin-bottom: 25px;   
 }
 
@@ -205,12 +211,16 @@ body {
     font-size: 14px;
 }
 
+.inscricao .inscricao-detalhes {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
 .inscricao input {
     border-radius: 50px;
     padding: 12px 140px;
-    margin-bottom: 10px;
-    
-    
+    margin-bottom: 10px;   
 }
 
 .btn-pequeno {
@@ -227,6 +237,7 @@ body {
 
 .inscricao .erro {
     color: hsl(0, 100%, 63%);
+    padding-left: 30px;
 }
 
 
