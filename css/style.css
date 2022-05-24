@@ -116,6 +116,7 @@ body {
 
 .produtividade {
     background-color: hsl(218, 28%, 13%);
+    
 }
 
 .produtividade .container {
@@ -153,8 +154,7 @@ body {
 
 .produtividade .container a:hover {
     text-decoration: underline;
-    color: #ffffff;
-    
+    color: #ffffff;  
 }
 
 .membros {
