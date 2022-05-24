@@ -41,7 +41,8 @@ body {
 }
 
 .acesso .container {
-    display: flex;  
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -97,8 +98,7 @@ body {
 }
 
 .servicos .icones-servicos {
-    background-color: aqu;
-    
+    background-color: aqu;   
     max-width: 350px;
 }
 
@@ -114,6 +114,10 @@ body {
     max-width: 350px;
 }
 
+.produtividade {
+    background-color: hsl(218, 28%, 13%);
+}
+
 .produtividade .container {
     display: flex;    
     background-color: hsl(218, 28%, 13%);
@@ -122,25 +126,35 @@ body {
 
 .produtividade .container img {
     margin-left: 100px;
+    margin-right: 55px;
+}
+
+.produtividade .produtividade-teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .produtividade .container h2 {
-    font-size: 50px;
-    margin-left: 80px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .produtividade .container p {
-    font-size: 2px;
-
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
-.teste {
+.produtividade .container a {
     color: #12E0D0;
+    font-size: 14px;
+    
 }
 
-.teste:hover {
+.produtividade .container a:hover {
     text-decoration: underline;
     color: #ffffff;
+    
 }
 
 .membros {
