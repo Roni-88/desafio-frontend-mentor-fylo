@@ -125,7 +125,7 @@ body {
     padding-bottom: 200px;
 }
 
-.produtividade .container img {
+.produtividade .container .trabalhando {
     margin-left: 100px;
     margin-right: 55px;
 }
@@ -149,12 +149,23 @@ body {
 .produtividade .container a {
     color: #12E0D0;
     font-size: 14px;
-    
+    display: flex;
+    width: fit-content;
+    padding-bottom: 3px;
+}
+
+.produtividade .container a svg {
+    margin-left: 10px;
 }
 
 .produtividade .container a:hover {
-    text-decoration: underline;
-    color: #ffffff;  
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.produtividade .container a:hover svg {
+    fill: #fff;
+
 }
 
 .membros {
