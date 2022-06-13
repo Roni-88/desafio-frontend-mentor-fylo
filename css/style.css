@@ -156,7 +156,7 @@ body {
 }
 
 .produtividade .container a svg {
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 .produtividade .container a:hover {
@@ -274,8 +274,6 @@ body {
     padding-left: 40px;
 }
 
-
-
 .footer .container img {
     margin: 0 0 60px 110px;
     
@@ -283,6 +281,10 @@ body {
 
 .footer .container i {
     font-size: 20px;
+}
+
+.footer .container p {
+    max-width: 250px;
 }
 
 .footer-detalhes {
