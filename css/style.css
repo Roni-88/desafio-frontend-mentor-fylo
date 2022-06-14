@@ -36,7 +36,7 @@ body {
 
 .acesso {
     background: hsl(217, 28%, 15%) url('../images/bg-curvy-desktop.svg') no-repeat center bottom;
-    padding-bottom: 140px;
+    padding-bottom: 110px;
     background-size: contain;
 }
 
@@ -171,7 +171,15 @@ body {
 
 .membros {
     background-color: hsl(218, 28%, 13%);
-    padding: 0 0 340px 0;
+    padding: 0 0 180px 0;
+    
+}
+
+.membros .aspas {
+       display: flex;
+       position: absolute;
+       left: -10px;
+       top: -35px;      
 }
 
 .membros .container {
@@ -179,14 +187,16 @@ body {
     gap: 35px;
     background-color: hsl(218, 28%, 13%);
     max-width: 1000px;
-    
+    position: relative; 
 }
+
 
 .membros .informacoes-membros {
     background-color: hsl(219, 30%, 18%);
     padding: 20px 24px 0 30px;
     box-shadow: 8px 8px 15px rgb(20, 25, 25);
     border: 6px solid hsl(217, 28%, 15%);
+    z-index: 2;
 }
 
 .membros .informacoes-membros p {
@@ -214,50 +224,45 @@ body {
     font-weight: 400;
 }
 
-.footer {
-    background-color: hsl(216, 53%, 9%);   
+.inscricao-background {
+    background: linear-gradient(to bottom, hsl(218, 28%, 13%) 50%, hsl(216, 53%, 9%) 50%);
 }
 
-.footer .container {
-    background-color: hsl(216, 53%, 9%);   
-}
-
-.footer .inscricao {
+.inscricao {
     background-color: hsl(217, 28%, 15%);
     border-radius: 10px;
     max-width: 800px;
     margin: 0 auto;
     position: relative;
     padding: 35px 60px 30px 60px;
-    top: -150px;
     box-shadow: 5px 5px 10px rgb(20, 20, 20);    
 }
 
-.footer .inscricao h2 {
+.inscricao h2 {
     text-align: center;
     font-size: 3.5em;
     margin-bottom: 25px;   
 }
 
-.footer .inscricao h4 {
+.inscricao h4 {
     text-align: center;
     font-weight: lighter;
     margin-bottom: 35px;
     font-size: 14px;
 }
 
-.footer .inscricao .inscricao-detalhes {
+.inscricao .inscricao-detalhes {
     display: flex;
     gap: 25px;   
 }
 
-.footer .inscricao input {
+.inscricao input {
     border-radius: 50px;
     padding: 12px 250px 12px 40px;
     margin-bottom: 10px;   
 }
 
-.footer .btn-pequeno {
+.btn-pequeno {
     font-size: 14px;
     background: linear-gradient(to left, #12E0D0, rgb(50, 580, 80));
     width: fit-content;
@@ -265,29 +270,43 @@ body {
     padding: 12px 30px;
 }
 
-.footer .btn-pequeno:hover {
+.btn-pequeno:hover {
     background: linear-gradient(to right, #12E0D0, rgb(50, 80, 880));
 }
 
-.footer .inscricao .erro {
+.inscricao .erro {
     color: hsl(0, 100%, 63%);
     padding-left: 40px;
 }
 
+.footer {
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 80px;
+    padding: 80px 0 100px 0;
+}
+
+.footer .container {
+    background-color: hsl(216, 53%, 9%);   
+}
+
 .footer .container img {
-    margin: 0 0 60px 110px;
-    
+    margin: 0 0 60px 110px;    
 }
 
 .footer .container i {
     font-size: 20px;
 }
 
+.footer-detalhes .redes {
+    border: 1px solid #fff ;
+}
+
 .footer .container p {
-    max-width: 250px;
+    font-size: 14px;
 }
 
 .footer-detalhes {
     display: flex;
+    margin-left: 110px;
     gap: 30px;
 }
