@@ -283,36 +283,74 @@ body {
     background-color: hsl(216, 53%, 9%);
     padding-top: 80px;
     padding: 80px 0 100px 0;
+    
 }
 
 .footer .container {
-    background-color: hsl(216, 53%, 9%);   
+    background-color: hsl(216, 53%, 9%);
+    width: 90%;
 }
 
 .footer .container img {
-    margin: 0 0 60px 110px;    
+    margin-bottom: 60px;    
+}
+
+.footer .texto-footer {
+    display: flex;
+    gap: 30px;
 }
 
 .footer .container i {
     font-size: 20px;
 }
 
+.footer-detalhes {
+    display: flex;   
+    gap: 30px;
+    justify-content: space-between;
+}
+
 .footer-detalhes .redes {
     border: 1px solid #fff;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
 }
+
+.footer-detalhes .redes:hover {
+    border: 1px solid #12E0D0;
+    color: #12E0D0;
+}    
 
 .footer-detalhes .contatos {
     font-size: 5px;
     font-weight: lighter;
 }
 
+.footer-detalhes .icone-texto {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
 .footer .container p {
     font-size: 14px;
 }
 
-.footer-detalhes {
+
+.footer-detalhes ul li {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.footer-detalhes ul li:hover {
+    font-weight: bolder;
+}
+
+.footer-detalhes .redes-sociais {
     display: flex;
-    margin-left: 110px;
-    gap: 30px;
+    gap: 25px;
 }
