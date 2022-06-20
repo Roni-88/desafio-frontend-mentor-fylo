@@ -298,7 +298,13 @@ body {
 }
 
 .footer-detalhes .redes {
-    border: 1px solid #fff ;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.footer-detalhes .contatos {
+    font-size: 5px;
+    font-weight: lighter;
 }
 
 .footer .container p {
