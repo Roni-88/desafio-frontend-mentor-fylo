@@ -323,6 +323,7 @@ body {
 .footer-detalhes .redes:hover {
     border: 1px solid #12E0D0;
     color: #12E0D0;
+    transition: 0.2s ease-in-out;
 }    
 
 .footer-detalhes .contatos {
