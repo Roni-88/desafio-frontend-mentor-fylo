@@ -149,6 +149,7 @@ body {
 
 .produtividade .container a {
     color: #12E0D0;
+    border-bottom: 1px solid #12E0D0;
     font-size: 14px;
     display: flex;
     width: fit-content;

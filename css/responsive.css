@@ -1,0 +1,31 @@
+@media (max-width: 1120px) {   
+    .produtividade {
+        display: flex;       
+    }
+
+    .produtividade .container .trabalhando {
+        margin-left: 20px;
+        margin-right: 55px;
+        width: 50%;
+        min-width: 300px;
+    }
+
+    .produtividade .produtividade-teste {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+/* aqui a parte de membros e footer começam a ficar sem respiro lateral*/
+/* o box de inscrição tb perde formatação */
+@media (max-width: 815px) {
+    
+}
+
+/* aqui os boxes dos membros começam a quebrar */
+@media (max-width: 650px) {
+    .produtividade {
+        display: flex;
+        flex-direction: column;     
+    }
+}
