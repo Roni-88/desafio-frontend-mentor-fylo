@@ -16,8 +16,6 @@
     }
 }
 
-/* aqui a parte de membros e footer começam a ficar sem respiro lateral*/
-/* o box de inscrição tb perde formatação */
 @media (max-width: 815px) {
     .membros .container {
         flex-direction: column;  
@@ -28,7 +26,7 @@
     }
 
     .membros .aspas {
-        left: -20px;
+        left: 15px;
         top: -35px;
     }
 
@@ -40,7 +38,6 @@
     }  
 }
 
-/* aqui os boxes dos membros começam a quebrar */
 @media (max-width: 750px) {
     .produtividade {
         flex-direction: column;     
@@ -56,7 +53,4 @@
         display: flex;
         justify-content: center;
     }
-
-    
-
 }

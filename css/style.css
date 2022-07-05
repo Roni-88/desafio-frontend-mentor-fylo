@@ -167,14 +167,12 @@ body {
 }
 
 .produtividade .container a:hover svg {
-    fill: #fff;
-    
+    fill: #fff;  
 }
 
 .membros {
     background-color: hsl(218, 28%, 13%);
-    padding: 0 0 180px 0;
-    
+    padding: 0 0 180px 0;   
 }
 
 .membros .aspas {
@@ -287,8 +285,7 @@ body {
 .footer {
     background-color: hsl(216, 53%, 9%);
     padding-top: 80px;
-    padding: 80px 0 100px 0;
-    
+    padding: 80px 0 100px 0;   
 }
 
 .footer .container {
