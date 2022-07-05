@@ -54,3 +54,31 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 600px) {
+    .header .container {
+        flex-direction: column;
+    }
+
+    .header .container .menu{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+
+    .produtividade .container {
+        /* centralizar o conteúdo todo */
+    }
+}
+
+@media (max-width: 375px) {
+    .header .container {
+        flex-direction: column;
+    }
+
+    .header .container .menu{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+}
+
+/* O problema é a imagem inicial!!! Está gerando barra de rolagem pro resto das resoluções! */
