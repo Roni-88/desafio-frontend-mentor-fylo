@@ -19,13 +19,44 @@
 /* aqui a parte de membros e footer começam a ficar sem respiro lateral*/
 /* o box de inscrição tb perde formatação */
 @media (max-width: 815px) {
-    
+    .membros .container {
+        flex-direction: column;  
+        max-width: 500px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .membros .aspas {
+        left: -20px;
+        top: -35px;
+    }
+
+    .informacoes-membros{
+        max-width: 500px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }  
 }
 
 /* aqui os boxes dos membros começam a quebrar */
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     .produtividade {
-        display: flex;
         flex-direction: column;     
     }
+
+    .footer .footer-detalhes {
+        display: flex;
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .redes-sociais {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
 }

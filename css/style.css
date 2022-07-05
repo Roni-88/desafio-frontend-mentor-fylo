@@ -124,6 +124,7 @@ body {
     background-color: hsl(218, 28%, 13%);
     padding-bottom: 200px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .produtividade .container .trabalhando {
@@ -254,19 +255,22 @@ body {
 
 .inscricao .inscricao-detalhes {
     display: flex;
-    gap: 25px;   
+    gap: 25px;
+    flex-wrap: wrap;
 }
 
 .inscricao input {
     border-radius: 50px;
-    padding: 12px 250px 12px 40px;
-    margin-bottom: 10px;   
+    padding: 12px 20px 12px 20px;
+    margin-bottom: 10px;
+    width: calc(100% - 225px);
+    min-width: 200px;
 }
 
 .btn-pequeno {
     font-size: 14px;
     background: linear-gradient(to left, #12E0D0, rgb(50, 580, 80));
-    width: fit-content;
+    width: 200px;
     border-radius: 40px;
     padding: 12px 30px;
 }
@@ -344,6 +348,11 @@ body {
 .footer-detalhes ul li {
     margin-bottom: 20px;
     font-size: 15px;
+}
+
+.menu-footer {
+    display: flex;
+    gap: 30px
 }
 
 .footer-detalhes ul li:hover {
