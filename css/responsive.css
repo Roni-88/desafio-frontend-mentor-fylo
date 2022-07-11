@@ -13,7 +13,10 @@
     .produtividade .produtividade-teste {
         flex-direction: column;
         justify-content: flex-start;
+        width: calc(50% - 95px);
+        margin-left: 20px;
     }
+    
 }
 
 @media (max-width: 815px) {
@@ -22,7 +25,7 @@
         max-width: 500px;
         width: 90%;
         margin-left: auto;
-        margin-right: auto; 
+        margin-right: auto;
     }
 
     .membros .aspas {
@@ -36,6 +39,16 @@
         margin-left: auto;
         margin-right: auto;
     }  
+
+    .produtividade .container .trabalhando {
+        margin-right: 20px;
+        width: 100%;    
+    }
+
+    .produtividade .produtividade-teste {
+        margin: 50px auto 0;
+        width: auto;
+    }
 }
 
 @media (max-width: 750px) {
