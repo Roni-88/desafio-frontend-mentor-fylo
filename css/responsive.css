@@ -56,6 +56,10 @@
         flex-direction: column;     
     }
 
+    .inscricao .inscricao-detalhes {
+        justify-content: center;
+    }
+
     .footer .footer-detalhes {
         display: flex;
         max-width: 100%;
@@ -68,7 +72,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 520px) {
     .header .container {
         flex-direction: column;
     }
@@ -78,20 +82,17 @@
         margin-top: 80px;
     }
 
-    .produtividade .container {
-        /* centralizar o conteúdo todo */
+    .produtividade .produtividade-teste {
+        margin: 50px;
+        width: auto;
+    }
+
+    .inscricao .inscricao-detalhes {
+        justify-content: center;
+    }
+
+    .membros .erro {
+        display: none;
     }
 }
 
-@media (max-width: 375px) {
-    .header .container {
-        flex-direction: column;
-    }
-
-    .header .container .menu{
-        flex-direction: column;
-        margin-top: 80px;
-    }
-}
-
-/* O problema é a imagem inicial!!! Está gerando barra de rolagem pro resto das resoluções! */
