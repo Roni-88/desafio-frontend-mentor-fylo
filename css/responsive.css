@@ -52,6 +52,10 @@
 }
 
 @media (max-width: 750px) {
+    .acesso img {
+        max-width: 90%;
+    }
+
     .produtividade {
         flex-direction: column;     
     }
@@ -72,7 +76,7 @@
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 590px) {
     .header .container {
         flex-direction: column;
     }
@@ -91,8 +95,7 @@
         justify-content: center;
     }
 
-    .membros .erro {
-        display: none;
+    .inscricao .erro {
+        padding-left: 20px;
     }
 }
-
